@@ -1,0 +1,86 @@
+.amo-audio-player.mejs-container {
+  background: transparent !important;
+}
+.amo-audio-player-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.amo-audio-thumb {
+  display: flex;
+  align-items: center;
+}
+.amo-audio-player-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:30px;
+}
+.amo-audio-player .mejs-time-total span:not(.mejs-time-float) {
+  height: 100%;
+}
+.amo-audio-player .mejs-time-total span.mejs-time-handle {
+  display: none;
+}
+.amo-audio-player .mejs-time-rail {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+.mejs-button.mejs-playpause-button,
+.amo-audio-player .mejs-volume-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.amo-audio-title {
+  font-size: 20px;
+  margin: 20px 0px 10px 0px;
+  font-weight: bold;
+}
+.amo-audio-content {
+  text-align: center;
+}
+.amo-audio-description {
+  color: #dfdfdf;
+  font-size: 18px;
+}
+.amokit-pro-player .mejs-controls .mejs-button button {
+  background: 0 0;
+  position: relative;
+  margin: 0;
+  width: auto;
+  height: auto;
+  color: #fff;
+  overflow: unset;
+  font-size: 13px;
+}
+.amokit-pro-player .mejs-container .fa,
+.amokit-pro-player .mejs-container .far,
+.amokit-pro-player .mejs-container .fas {
+  font-family: 'Font Awesome 5 Free';
+}
+.amokit-pro-player .mejs-container .fab {
+  font-family: 'Font Awesome 5 Brands';
+}
+.amokit-pro-player .mejs-controls .mejs-button i {
+  display: none;
+}
+.amokit-pro-player .mejs-controls .mejs-button.mejs-play i.amo-audio-play {
+  display: block;
+}
+.amokit-pro-player .mejs-controls .mejs-button.mejs-pause i.amo-audio-pause {
+  display: block;
+}
+.amokit-pro-player
+  .mejs-controls
+  .mejs-button.mejs-replay
+  i.amo-audio-replay {
+  display: block;
+}
+.amokit-pro-player .mejs-controls .mejs-button.mejs-mute i.amo-audio-unmute {
+  display: block;
+}
+.amokit-pro-player .mejs-controls .mejs-button.mejs-unmute i.amo-audio-mute {
+  display: block;
+}
