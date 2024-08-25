@@ -1,0 +1,28 @@
+{
+  "name": "amokit/tab-content",
+  "category": "amokit-blocks",
+  "title": "Tab Pane",
+  "parent": [
+    "amokit/tab"
+  ],
+  "attributes": {
+    "blockUniqId": {
+      "type": "string"
+    },
+    "parentId": {
+      "type": "string"
+    },
+    "id": {
+      "type": "number",
+      "default": 0
+    },
+    "tabActive": {
+      "type": "number",
+      "default": 0
+    },
+    "activeTab": {
+      "type": "number",
+      "default": 0
+    }
+  }
+}

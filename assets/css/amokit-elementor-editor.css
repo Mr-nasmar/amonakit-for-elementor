@@ -1,0 +1,114 @@
+.elementor-element .icon {
+  position: relative;
+}
+.elementor-element .icon .amo-icon::after {
+  content: "HT";
+  font-size: 10px;
+  opacity: 0.4;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+.elementor-control-redirect_page_url .elementor-control-url-more{
+  display: none;
+}
+.ht-badge-icon{
+  float: right;
+}
+.amokit-pro-notice {
+  background: #efefef;
+  padding: 14px;
+  line-height: 1.5;
+  border-left: 5px solid skyblue;
+}
+
+.elementor-control-section_AMOKIT_WRAPPER_link .elementor-panel-heading-title,
+.elementor-control-section_amokit_conditional_display .elementor-panel-heading-title,
+.elementor-control-section_amokit_live_copy_paste .elementor-panel-heading-title {
+  width: inherit;
+  text-align: left;
+}
+/* .elementor-control-field select option[value*='pro'] {
+  background: #dddddd;
+} */
+
+.amo-disable-control .elementor-control-input-wrapper{
+  pointer-events: none !important;
+  opacity: 0.4;
+}
+.amo-disable-control:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top:0;
+  z-index: 2;
+  opacity: 1;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+}
+
+.amo-purchase-pro-section-control .elementor-panel-heading-title {
+  color: #d73361;
+}
+
+.amo-addons-notice {
+  font-size: 12px;
+  line-height: 16px;
+  background: #b3e7db78;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+  border-left: 5px solid #03A9F4;
+  color: #202020;
+}
+.amo-addons-notice a {
+  color: #fff;
+  background: #D73361;
+  padding: 4px 10px;
+  display: inline-block;
+  margin: 6px;
+  border-radius: 3px;
+  font-size: 10px;
+}
+.amo-addons-notice a:hover {
+  color: #fff;
+}
+.amo-disable-control i.eicon-pro-icon {
+  color: #D73361;
+  font-size: 14px;
+}
+.elementor-templates-modal .dialog-widget-content {
+  max-width: 1920px;
+}
+#elementor-panel-category-amokit-pro-addons .elementor-element-wrapper .elementor-element .eicon-lock{
+  left: 5px;
+  right: auto;
+}
+
+i.amo-icon.amo-chart-img:before {
+  content: url("../images/widget-icons/chart.png");
+  height: 28px;
+  width: 28px;
+}
+i.amo-icon.amo-threesixty-rotation-img:before {
+  content: url("../images/widget-icons/threesixty-rotation.png");
+  height: 28px;
+  width: 28px;
+}
+.ht-badge-icon {
+  float: right;
+}
+
+.amo-elementor-buttion-pro-hide{
+  display: none;
+}
+a.amokit-pro-dialog-buttons-action{
+  display: none!important;
+}
+.amokit-pro-widget a.amokit-pro-dialog-buttons-action{
+  display: inline-block!important;
+}
+.elementor-button.go-pro.dialog-button.dialog-action.dialog-buttons-action.amo-elementor-buttion-pro-hide {
+  display: none!important;
+}
